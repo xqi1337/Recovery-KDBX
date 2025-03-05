@@ -1,1 +1,1 @@
-# Recovery-KDBX
+# Dieses Python-Skript hilft dabei, KDBX-Dateien auf einer Festplatte zu durchsuchen und automatisch wiederherzustellen. Es nutzt eine signaturbasierte Suche, um KDBX-Dateien zu identifizieren und extrahiert die Daten, wobei die Dateien in Teilen von maximal 30 MB gespeichert werden. Das Tool verwendet parallele Worker-Threads, um die Dateiwiederherstellung effizient und schnell durchzuführen. Es zeigt außerdem eine Fortschrittsanzeige und speichert die wiederhergestellten KDBX-Dateien unter einzigartigen Namen, um eine einfache Verwaltung zu gewährleisten.
